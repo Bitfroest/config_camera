@@ -1,3 +1,24 @@
 [submodule "LMS"]
 	path = LMS
 	url = https://github.com/Phibedy/LMS
+[submodule "external/libraries/imaging"]
+	path = external/libraries/imaging
+	url = https://github.com/lms-org/imaging
+[submodule "external/libraries/ogre_binding"]
+	path = external/libraries/ogre_binding
+	url = https://github.com/lms-org/ogre_binding
+[submodule "external/modules/camera_importer"]
+	path = external/modules/camera_importer
+	url = https://github.com/lms-org/camera_importer
+[submodule "external/modules/ogre_window_manager"]
+	path = external/modules/ogre_window_manager
+	url = https://github.com/lms-org/ogre_window_manager
+[submodule "external/modules/image_renderer"]
+	path = external/modules/image_renderer
+	url = https://github.com/lms-org/image_renderer
+[submodule "external/libraries/math_lib"]
+	path = external/libraries/math_lib
+	url = https://github.com/lms-org/math_lib
+[submodule "external/modules/opencv_line_detection"]
+	path = external/modules/opencv_line_detection
+	url = https://github.com/Bitfroest/opencv_line_detection

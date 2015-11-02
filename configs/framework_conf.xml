@@ -1,0 +1,40 @@
+<framework>
+	<execution>
+		<clock enabled="true" unit="hz" value="100" />
+	</execution>
+	<modulesToEnable>
+            <module logLevel="INFO">ogre_window_manager</module>
+            <module logLevel="WARN">camera_importer</module>
+            <module logLevel="INFO">image_renderer</module>
+
+
+
+	</modulesToEnable>
+	<module>
+		<name>camera_importer</name>
+                <!--<config src="camera_importer.lconf"/>-->
+                <config>
+                    <device>/dev/video0</device>
+                    <width>640</width>
+                    <height>480</height>
+                    <format>YUYV</format>
+                    <framerate>60</framerate>
+
+                </config>
+        <!--<channelMapping from="IMAGE" to="CAMERA_IMAGE" />-->
+	</module>
+
+        <module>
+                <name>image_renderer</name>
+        </module>
+
+        <module>
+                <name>ogre_window_manager</name>
+                <config>
+                    <width>640</width>
+                    <height>480</height>
+                </config>
+        </module>
+
+
+</framework>
