@@ -22,3 +22,6 @@
 [submodule "external/modules/opencv_line_detection"]
 	path = external/modules/opencv_line_detection
 	url = https://github.com/Bitfroest/opencv_line_detection
+[submodule "external/libraries/opencv"]
+	path = external/libraries/opencv
+	url = https://github.com/Bitfroest/opencv
