@@ -7,7 +7,7 @@
 
             <module logLevel="WARN">camera_importer</module>
             <!--<module logLevel="INFO">sfml_window_manager</module>-->
-
+            <module logLevel="INFO">image_converter</module>
             <module logLevel="INFO">opencv_line_detection</module>
             <module logLevel="INFO">image_renderer</module>
 
@@ -16,7 +16,17 @@
 	</modulesToEnable>
 
         <module>
-                <name>opencv_line_detection</name>
+            <name>opencv_line_detection</name>
+            <channelMapping from="IMAGE" to="IMAGE_GREY" />
+        </module>
+
+        <module>
+            <name>image_converter</name>
+            <channelMapping from="INPUT_IMAGE" to="CAMERA_IMAGE" />
+            <channelMapping from="OUTPUT_IMAGE" to="IMAGE_GREY" />
+            <config>
+                <output_format>GREY</output_format>
+            </config>
         </module>
 
 	<module>
@@ -30,7 +40,7 @@
                     <framerate>60</framerate>
 
                 </config>
-        <!--<channelMapping from="IMAGE" to="CAMERA_IMAGE" />-->
+        <channelMapping from="IMAGE" to="CAMERA_IMAGE" />
 	</module>
 
         <module>

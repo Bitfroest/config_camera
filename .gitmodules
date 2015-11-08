@@ -28,3 +28,6 @@
 [submodule "external/modules/sfml_window_manager"]
 	path = external/modules/sfml_window_manager
 	url = https://github.com/Bitfroest/sfml_window_manager
+[submodule "external/modules/image_converter"]
+	path = external/modules/image_converter
+	url = https://github.com/lms-org/image_converter
