@@ -4,12 +4,17 @@
 	</execution>
 	<modulesToEnable>
             <module logLevel="INFO">ogre_window_manager</module>
+
             <module logLevel="WARN">camera_importer</module>
+            <!--<module logLevel="INFO">sfml_window_manager</module>-->
             <module logLevel="INFO">image_renderer</module>
 
 
 
 	</modulesToEnable>
+
+
+
 	<module>
 		<name>camera_importer</name>
                 <!--<config src="camera_importer.lconf"/>-->
@@ -23,6 +28,11 @@
                 </config>
         <!--<channelMapping from="IMAGE" to="CAMERA_IMAGE" />-->
 	</module>
+
+        <module>
+                <name>sfml_window_manager</name>
+
+        </module>
 
         <module>
                 <name>image_renderer</name>

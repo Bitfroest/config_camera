@@ -25,3 +25,6 @@
 [submodule "external/libraries/opencv"]
 	path = external/libraries/opencv
 	url = https://github.com/Bitfroest/opencv
+[submodule "external/modules/sfml_window_manager"]
+	path = external/modules/sfml_window_manager
+	url = https://github.com/Bitfroest/sfml_window_manager
