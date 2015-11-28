@@ -50,6 +50,7 @@
 
         <module>
                 <name>image_renderer</name>
+        <channelMapping from="IMAGE" to="CAMERA_IMAGE" />
         </module>
 
         <module>
